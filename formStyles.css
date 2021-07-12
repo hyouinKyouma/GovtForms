@@ -1,0 +1,130 @@
+.heading1{
+    display:grid;
+    /* margin:auto; */
+    grid-gap: 5px 5px;
+    grid-template-columns: 15% 75% 1% 9%;
+
+}
+
+.item1 {
+grid-column-start: 1;
+grid-column-end: 2;
+margin-top: 20px;
+margin-left:20px;
+}
+
+.item2 {
+grid-column-start: 2;
+grid-column-end: 4;
+
+}
+.item3 {
+    grid-column-start: 4;
+    }
+.centerSpan{
+    display:table;
+    margin:auto;
+}
+.labelTop{
+    padding-top: 16px   ;
+    font-size: 20px;
+    padding-right:44px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.inp1{
+    padding-top: 16px;
+    width: 67%;
+    float: right;
+    
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.table1 {
+    font-family: arial, sans-serif;
+    /* border-collapse:inherit; */
+    width: 100%;
+    float: left;
+        
+  }
+  table{
+      border-spacing: 0px;
+  }
+  
+  .td1, .th1 {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    width:5%;
+    vertical-align:top;
+  }
+  .table2{
+    font-family: arial, sans-serif;
+    /* border-collapse:inherit; */
+    width: 100%;
+    float: left;
+
+  }
+  .col1 {
+    float: left;
+    width: 65%;
+    padding: 5px;
+  }
+  .col2 {
+    float: left;
+    width: 33%;
+    padding: 5px;
+  }
+
+  .row {
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+  .td2 {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    /* font-size: 12px; */
+    /* width:10%; */
+    vertical-align:top;
+    height: 57px;
+  }
+  .col3 {
+    float: left;
+    width: 50%;
+    /* padding: 5px; */
+    /* display: flex; */
+  }
+  .col4 {
+    float: left;
+    width: 50%;
+    /* padding: 5px; */
+  }
+  .td3 {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 4px;
+    /* font-size: 12px; */
+    /* width:10%; */
+    vertical-align:top;
+    height: 25px;
+  }
+  hr{
+    border-width: .25px;
+  }
+
+  .table3{
+      margin-left: 10%;
+      margin-right: 60%;
+      display: block;
+    font-family: arial, sans-serif;
+    /* border-collapse:inherit; */
+    width: 50%;
+    float: left;
+
+  }
+
+ 
